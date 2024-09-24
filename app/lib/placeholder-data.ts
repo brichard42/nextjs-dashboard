@@ -10,7 +10,7 @@ const users = [
   {
     id: '410544bb-4001-4271-9855-fec4b6a6442a',
     name: 'Bastien',
-    email: 'bastien@nextmail.com',
+    email: 'bastien@example.com',
     password: '987654',
   }, ,
 ];
