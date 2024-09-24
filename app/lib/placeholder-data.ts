@@ -12,7 +12,7 @@ const users = [
     name: 'Bastien',
     email: 'bastien@example.com',
     password: '987654',
-  }, ,
+  },
 ];
 
 const customers = [
