@@ -8,8 +8,10 @@ import {
 	LatestInvoicesSkeleton,
 	RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
+import { unstable_noStore } from "next/cache";
 
 export default async function Page() {
+	unstable_noStore();
 	return (
 		<main>
 			<h1 className={`${circe.className} mb-4 text-xl md:text-2xl`}>
